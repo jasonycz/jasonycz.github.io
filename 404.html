@@ -4,10 +4,12 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>how to develop a blog use hexo | jasonyang 的个人主页</title>
+    <title>jasonyang 的个人主页</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
     
     <meta name="author" content="ycz">
+    
+    <meta name="description" content="Walk steps step by step">
     
     
     
@@ -58,32 +60,35 @@
 
     </header>
     <div id="container">
-      <div id="main" class="post" itemscope itemprop="blogPost">
+      <div id="main" class="default" itemscope itemprop="blogPost">
 	<article itemprop="articleBody"> 
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2016/01/21/how-to-develop-a-blog-use-hexo/" title="how to develop a blog use hexo" itemprop="url">how to develop a blog use hexo</a>
+      <a href="/404.html" title="" itemprop="url"></a>
   </h1>
   <p class="article-author">By
     
       <a href="http://xiaoyuanromance.com" title="ycz">ycz</a>
     </p>
   <p class="article-time">
-    <time datetime="2016-01-21T03:45:41.000Z" itemprop="datePublished">2016-01-21</time>
-    更新日期:<time datetime="2016-01-21T03:45:41.837Z" itemprop="dateModified">2016-01-21</time>
+    <time datetime="2016-01-21T14:25:42.944Z" itemprop="datePublished">2016-01-21</time>
+    更新日期:<time datetime="2016-01-21T14:25:42.944Z" itemprop="dateModified">2016-01-21</time>
     
   </p>
 </header>
 	<div class="article-content">
 		
 		
-		<div id="toc" class="toc-article">
-			<strong class="toc-title">文章目錄</strong>
-		
-		</div>
-		
-		  
+		<html>
+    <head>
+         <meta charset="UTF-8">
+         <title>404</title>                                                                                                                                        
+    </head>
+    <body>
+         <script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8"></script>
+    </body>
+</html>  
 	</div>
 		<footer class="article-footer clearfix">
 
@@ -92,34 +97,13 @@
 
 <div class="article-share" id="share">
 
-  <div data-url="http://xiaoyuanromance.com/2016/01/21/how-to-develop-a-blog-use-hexo/" data-title="how to develop a blog use hexo | jasonyang 的个人主页" data-tsina="null" class="share clearfix">
+  <div data-url="http://xiaoyuanromance.com/404.html" data-title="jasonyang 的个人主页" data-tsina="null" class="share clearfix">
   </div>
 
 </div>
 </footer>   	       
 	</article>
 	
-<nav class="article-nav clearfix">
- 
- <div class="prev" >
- <a href="/2016/01/21/使用Hexo创建免费的博客/" title="使用Hexo创建免费的博客">
-  <strong>PREVIOUS:</strong><br/>
-  <span>
-  使用Hexo创建免费的博客</span>
-</a>
-</div>
-
-
-<div class="next">
-<a href="/2016/01/21/My-New-Post/"  title="My New Post">
- <strong>NEXT:</strong><br/> 
- <span>My New Post
-</span>
-</a>
-</div>
-
-</nav>
-
 	
 <section class="comment">
 	<div class="ds-thread"></div>
@@ -127,11 +111,6 @@
 
 </div>  
       <div class="openaside"><a class="navbutton" href="#" title="顯示側邊欄"></a></div>
-
-  <div id="toc" class="toc-aside">
-  <strong class="toc-title">文章目錄</strong>
-  
-  </div>
 
 <div id="asidepart">
 <div class="closeaside"><a class="closebutton" href="#" title="隱藏側邊欄"></a></div>
@@ -206,8 +185,6 @@ $(document).ready(function(){
       m.removeClass('moveMain');
       a.css('display', 'block').removeClass('fadeOut');
       o.css('display', 'none');
-      
-      $('#toc.toc-aside').css('display', 'none');
         
     }
   });
@@ -227,83 +204,11 @@ $(document).ready(function(){
 });
 </script>
 
-<script type="text/javascript">
-$(document).ready(function(){ 
-  var ai = $('.article-content>iframe'),
-      ae = $('.article-content>embed'),
-      t  = $('#toc'),
-      h  = $('article h2')
-      ah = $('article h2'),
-      ta = $('#toc.toc-aside'),
-      o  = $('.openaside'),
-      c  = $('.closeaside');
-  if(ai.length>0){
-    ai.wrap('<div class="video-container" />');
-  };
-  if(ae.length>0){
-   ae.wrap('<div class="video-container" />');
-  };
-  if(ah.length==0){
-    t.css('display','none');
-  }else{
-    c.click(function(){
-      ta.css('display', 'block').addClass('fadeIn');
-    });
-    o.click(function(){
-      ta.css('display', 'none');
-    });
-    $(window).scroll(function(){
-      ta.css("top",Math.max(140,320-$(this).scrollTop()));
-    });
-  };
-});
-</script>
 
-
-<script type="text/javascript">
-$(document).ready(function(){ 
-  var $this = $('.share'),
-      url = $this.attr('data-url'),
-      encodedUrl = encodeURIComponent(url),
-      title = $this.attr('data-title'),
-      tsina = $this.attr('data-tsina');
-  var html = [
-  '<a href="#" class="overlay" id="qrcode"></a>',
-  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#share"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
-  '<a href="#textlogo" class="article-back-to-top" title="Top"></a>',
-  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
-  '<a href="#qrcode" class="article-share-qrcode" title="QRcode"></a>',
-  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
-  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="Weibo"></a>',
-  '<span title="Share to"></span>'
-  ].join('');
-  $this.append(html);
-  $('.article-share-qrcode').click(function(){
-    var imgSrc = $('#qrcode-pic').attr('data-src');
-    $('#qrcode-pic').attr('src', imgSrc);
-    $('#qrcode-pic').load(function(){
-        $('.qrcode strong').text(' ');
-    });
-  });
-});     
-</script>
-
-
-<script type="text/javascript">
-  var duoshuoQuery = {short_name:"null"};
-  (function() {
-    var ds = document.createElement('script');
-    ds.type = 'text/javascript';ds.async = true;
-    ds.src = '//static.duoshuo.com/embed.js';
-    ds.charset = 'UTF-8';
-    (document.getElementsByTagName('head')[0] 
-    || document.getElementsByTagName('body')[0]).appendChild(ds);
-  })();
-</script> 
 
 
 
 
 
   </body>
-</html>
+ </html>
