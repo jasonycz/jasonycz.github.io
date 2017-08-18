@@ -1,22 +1,22 @@
 # Site settings
-title: Your Blog
-SEOTitle: 你的博客 | Your Blog
+title: Jasonycz's Blog
+SEOTitle: Jasonycz | Blog
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
+email: jsonyang@163.com
 description: ""
 keyword: ""
-url: "http://huangxuan.me"              # your host, for absolute URL
-baseurl: "/huxblog-boilerplate"         # for example, '/blog' if your blog hosted on 'host/blog'
+url: "http://newcloudplatform.com"              # your host, for absolute URL
+baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
+weibo_username:     jasonyczzzzz
+zhihu_username:     jasonyczzzzz
+github_username:    jasonycz
 #twitter_username:  huxpro
-facebook_username:  huxpro
+facebook_username:  jasonycz
 
 
 
@@ -32,7 +32,7 @@ anchorjs: true                          # if you want to customize anchor. check
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 
 
