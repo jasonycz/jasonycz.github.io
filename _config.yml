@@ -12,8 +12,8 @@ baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 # SNS settings
 RSS: false
-weibo_username:     jasonyczzzzz
-zhihu_username:     jasonyczzzzz
+weibo_username:     Tyangzzz
+zhihu_username:     orange-bupt
 github_username:    jasonycz
 #twitter_username:  huxpro
 facebook_username:  jasonycz
@@ -42,7 +42,7 @@ plugins: [jekyll-paginate]
 # document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
+input: GFM                            # use Github Flavored Markdown !important
 
 
 
@@ -82,7 +82,10 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "Hux Blog",
+        title: "百度",
+        href: "http://baidu.com"
+    },{
+        title: "星云",
         href: "http://newcloudplatform.com"
     },{
         title: "Foo",
@@ -90,11 +93,5 @@ friends: [
     },{
         title: "Bar",
         href: "#"
-    },{
-        title: "Example Friends",
-        href: "#"
-    },{
-        title: "It helps SEO",
-        href: "#"
-    }
+    },
 ]
