@@ -6,8 +6,8 @@ date:       2015-05-25
 author:     "Hux"
 header-img: "img/post-bg-js-module.jpg"
 tags:
-    - 前端开发
     - JavaScript
+    - 科技
 ---
 
 

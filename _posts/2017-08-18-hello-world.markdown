@@ -1,12 +1,12 @@
 ---
 layout:     post
-title:      "Hello world"
+title:      "Example of Post"
 subtitle:   " \"Hello World, Hello Blog\""
 date:       2017-08-17 17:33:13
 author:     "Jasonycz"
 header-img: "img/post-bg-cloud-ocean.jpg"
 tags:
-    - 生活
+    - 科技
 ---
 
 > “Yeah It's on. ”
