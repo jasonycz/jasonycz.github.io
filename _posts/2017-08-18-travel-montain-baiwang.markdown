@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "百旺山"
+title:      "我的博客起源"
 subtitle:   " \"Hello World, Hello Blog\""
 date:       2017-08-17 19:30:36
 author:     "Jasonycz"
