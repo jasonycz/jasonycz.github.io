@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Introduction of PHP Framework Laravel"
-subtitle:   "Php laravel"
+title:      "Introduction of  Laravel"
+subtitle:   "Php Framework Laravel"
 date:       2017-09-02 16:59:42
 author:     "Jasonycz"
 header-img: "img/post-php-laravel.jpg"
