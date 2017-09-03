@@ -8,7 +8,6 @@ author:     "Hux"
 header-img: "img/post-bg-js-version.jpg"
 tags:
     - JavaScript
-    - 科技
 ---
 
 
@@ -42,3 +41,5 @@ tags:
 ### Thanks
 
 [Reveal.js](http://lab.hakim.se/reveal-js)
+
+

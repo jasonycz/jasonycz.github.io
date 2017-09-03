@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Introduction of PHP Framework Laravel"
-subtitle:   "Tech"
+subtitle:   "Php laravel"
 date:       2017-09-02 16:59:42
 author:     "Jasonycz"
 header-img: "img/post-php-laravel.jpg"
@@ -14,7 +14,7 @@ tags:
 
 ###   技术优势 
  - 语法优雅、可读性好 
-  - MbdTech::all();  MbdTech::where('id',1)->get()->toArray();
+  I- MbdTech::all();  MbdTech::where('id',1)->get()->toArray();
  - 使用composer进行包管理
    - 优点：方便管理依赖的包（版本控制）
  - migration: 数据库迁移
