@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "I love the feeling of hippop"
+title:      "Hippop"
 subtitle:   "Hippop"
 date:       2017-08-18 19:27:36
 author:     "Jasonycz"
