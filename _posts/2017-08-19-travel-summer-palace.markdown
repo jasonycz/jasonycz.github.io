@@ -2,7 +2,7 @@
 layout:     post
 title:      "Summer Palace"
 subtitle:   "Weekend Travel"
-date:       2017-08-18 15:27:36
+date:       2017-08-20 19:56:59
 author:     "Jasonycz"
 header-img: "img/post-travel-20170819-Summer Palace.jpg"
 tags:
