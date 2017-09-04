@@ -1,6 +1,6 @@
 # Site settings
-title: Jasonycz のloft
-SEOTitle: Jasonycz のloft
+title: Jasonycz の Loft
+SEOTitle: Jasonycz の Loft
 header-img: img/home-bg.jpg
 email: jsonyang@163.com
 description: ""
@@ -15,7 +15,6 @@ RSS: false
 weibo_username:     Tyangzzz
 zhihu_username:     orange-bupt
 github_username:    jasonycz
-#twitter_username:  huxpro
 facebook_username:  jasonycz
 
 
