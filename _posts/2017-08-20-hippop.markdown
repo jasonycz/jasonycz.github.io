@@ -14,3 +14,26 @@ tags:
 ## 好好街舞，好好生活
 
 
+> 学习记录——2017-09-12 23:03:33
+
+- 锐步
+- up down 
+- xxx(忘记了)
+
+> 2017年09月05日
+
+<video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
+      <source id="mp4" src="http://ovqrdbvl4.bkt.clouddn.com/56c31d5a877ccd6d0743c7ce7ef8661a" type="video/mp4">
+</video>
+
+
+> 2017年09月12日
+
+<video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
+      <source id="mp4" src="http://ovqrdbvl4.bkt.clouddn.com/622b71918389e90dad19aab2638a9bcd" type="video/mp4">
+</video>
+
+> todo
+
+- 自拍一次给老王（主要把握律动） 2017年09月13日自拍
+
