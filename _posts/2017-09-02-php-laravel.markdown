@@ -436,6 +436,18 @@ php artisan make:test MbdTechTest                     // test
 php artisan make:seeder MbdTechsTableSeeder           // create seeder
 php artisan db:seed --class=MbdTechsTableSeeder       // use factory to create test data
 
+add  $this->call(MbdTechsTableSeeder::class); to DatabaseSeeder to run MbdTechsTableSeeder.
+
+run 
+php artisan db:seed 
+to excute seeder in databaseSeeder
+or run 
+php artisan db:seeder --class=MbdTechsTableSeeder
+to excute just MbdTechsTableSeeder
+or run
+php artisan migrate:refresh --seed 
+to excute all seed when completely restructing your database.
+
 // create route (restful routing)
 
 php artisan migrate:rollback --step=2                 // back migrate
