@@ -448,6 +448,10 @@ or run
 php artisan migrate:refresh --seed 
 to excute all seed when completely restructing your database.
 
+
+php artisan make:provider TestServiceProvider   // create a service provider
+
+
 // create route (restful routing)
 
 php artisan migrate:rollback --step=2                 // back migrate
