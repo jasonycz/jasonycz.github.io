@@ -431,6 +431,7 @@ php artisan make:model Models/MbdTech  	           // create model MbdTech
 php artisan make:migration mdbtechs                   // create table mdbtechs
 php artisan migrate
 php artisan make:controller MbdTech/MbdTechController // create controller
+or php artisan make:controller MbdTech/MbdTechController --resource
 php artisan make:test MbdTechTest                     // test
 
 php artisan make:seeder MbdTechsTableSeeder           // create seeder
@@ -442,7 +443,7 @@ run
 php artisan db:seed 
 to excute seeder in databaseSeeder
 or run 
-php artisan db:seeder --class=MbdTechsTableSeeder
+php artisan db:seed --class=MbdTechsTableSeeder
 to excute just MbdTechsTableSeeder
 or run
 php artisan migrate:refresh --seed 
