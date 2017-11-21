@@ -14,6 +14,31 @@ tags:
 ## 好好街舞，好好生活
 
 
+> 学习记录—— 2017-11-18 13：00-16：00
+
+- romeo twist
+- breaking down
+
+- TODO
+  - all type name of soul dance
+  - practice breaking down
+  - practice isolation of chest
+  - 双脚打节拍,胯后摆
+
+<style type="text/css">
+    .video {
+      width:100%;
+      height: 400px;
+    }
+
+</style>
+
+<video class="video" controls="" preload="none" poster="http://ovqrdbvl4.bkt.clouddn.com/0f221cb7cdf30ddf2c9cec01f291393c">
+    <source src="http://ovqrdbvl4.bkt.clouddn.com/1f4221e196bb5474555483a8475c905d" type="video/mp4">
+</video>
+
+
+
 > 学习记录——2017-11-12 13：00-16：00
 
 - soul dance
