@@ -14,6 +14,37 @@ tags:
 ## 好好街舞，好好生活
 
 
+> 学习记录——2017-12-02 13：00-17：00
+
+- soul dance
+  - old man
+- stop and go
+  - 学习要点
+    - 听到啪打啪噗
+    - 听到咚开始匀速移动
+
+- TODO
+  - 知道 soul dance 类型，并且练习熟练
+  - 听节奏 咚啪 stop go stop go 练习
+
+<style type="text/css">
+    .video {
+      width:100%;
+      height: 400px;
+    }
+
+</style>
+
+<video class="video" controls="" preload="none" poster="http://ovqrdbvl4.bkt.clouddn.com/392525750b72fbf297b1f202a726d982">
+    <source src="http://ovqrdbvl4.bkt.clouddn.com/e80bd3a0d3eee2b78b41db235d7f5b31" type="video/mp4">
+</video>
+
+<video class="video" controls="" preload="none" poster="http://ovqrdbvl4.bkt.clouddn.com/759d053e8a875119c28bf09a84afd873">
+    <source   src="http://ovqrdbvl4.bkt.clouddn.com/cfb7b5e2500a549b1263a95ed5a0e1f3" type="video/mp4">
+</video>
+
+
+
 > 学习记录—— 2017-11-18 13：00-16：00
 
 - romeo twist
