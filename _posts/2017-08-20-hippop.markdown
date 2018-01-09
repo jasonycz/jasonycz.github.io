@@ -13,6 +13,24 @@ tags:
 
 ## 好好街舞，好好生活
 
+> 学习记录——2018-01-02 20:00-21:15
+
+- 大厦街舞社
+
+
+<style type="text/css">
+    .video {
+      width:100%;
+      height: 400px;
+    }
+
+</style>
+
+<video class="video" controls="" preload="none" poster="
+upload:59 http://ovqrdbvl4.bkt.clouddn.com/97d0211c187f5b846ae79fa42add7f15.jpeg">
+    <source src="http://ovqrdbvl4.bkt.clouddn.com/551107a5f0a2c8773a715896e0aaac37.mp4" type="video/mp4">
+</video>
+
 
 > 学习记录——2017-12-02 13：00-17：00
 

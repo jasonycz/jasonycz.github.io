@@ -9,3 +9,6 @@ tags:
     - Php
 ---
 
+
+### Reference
+- [深入 Composer autoload](https://laravel-china.org/topics/1002/deep-composer-autoload)
