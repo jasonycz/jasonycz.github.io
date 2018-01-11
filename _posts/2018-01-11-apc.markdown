@@ -1,0 +1,194 @@
+---
+layout:     post
+title:      "APC"
+subtitle:   "Alternative PHP Cache"
+date:       2018-01-10 12:37:32
+author:     "Jasonycz"
+header-img: "img/apc.png"
+tags:
+    - Php
+---
+
+## 简介内容
+- APC 定义
+- APC 功能
+- APC 内部存储结构
+- APC vs MC
+- APC 常用函数
+- 参考文章
+
+### APC 定义
+APC 全称 Alternative PHP Cache, 官方翻译 "可选PHP缓存"。
+
+### APC 功能
+- 系统缓存
+- 用户数据缓存
+
+#### 系统缓存
+APC 把 PHP 文件源码的编译结果缓存起来，然后在每次调用时，先对比时间标记。如果未过期，则使用缓存的中间代码运行。默认 ttl 3600秒。(但是这样仍然会浪费大量CPU的时间,可以在php.ini中设置system缓存为永不过期(apc.ttl=0),这样的话,改动代码,需要从启WEB服务器)
+```
+    ;add extions of apc
+    extension=apc.so
+    apc.enabled = 1
+    apc.cache_by_default = on
+    apc.shm_segments = 1
+    apc.shm_size = 32
+    apc.ttl = 0
+    apc.user_ttl = 600
+    apc.num_files_hint = 0
+    apc.write_lock = On
+    apc.rfc1867 = 1
+```
+
+#### 用户数据缓存
+缓存由用户在编写PHP代码时候使用 `apc_store` 和 `apc_fetch` 函数操作写入、获取。
+
+### APC 内部存储结构
+在APC内部，对于系统缓存和用户缓存分别是以两个全局变量存储,从代码逻辑层面就隔离了两种缓存，当然，这两种存储的实现过程和数据结构是一样的，它们都是apc_cache_t类型，对于一个缓存，apc_cache_t类型的变量是其入口，它包含了这个缓存的一些全局信息。结构如下：
+
+```
+    struct apc_cache_t {
+        void* shmaddr;                // 共享缓存的本地进程地址
+        cache_header_t* header;       // 缓存头，存储在共享内存中
+        slot_t** slots;               // 缓存的槽数组，存储在共享内存中
+        int num_slots;                // 存储在缓存中的槽个数
+        int gc_ttl;                   // GC列表中槽的最大生存时间
+        int ttl;                      // 如果对槽的访问时间大于这个TTL，需要则移除这个槽
+        apc_expunge_cb_t expunge_cb;  /* cache specific expunge callback to free up sma memory */  缓存释放内存的回调
+        uint has_lock;                // 为可能存在的造成同一进程递归锁而存在的标记 /* flag for possible recursive locks within the same process */
+    };
+
+```
+每个缓存都会有多个缓存槽，包含在slots字段中，slots的个数包含在num_slots字段，槽的过程时间控制在于ttl字段。对于用户缓存和系统缓存，默认情况下系统缓存数量为1000，实际上APC创建了1031个，也就是说默认情况下APC最少可以缓存1031个文件的中间代码。当然这个值还需要考虑内存大小，计算slot的key后的分布等等。更多的关于缓存的统计信息存储在header字段中，header字段结构为cache_header_t，如下：
+
+```
+    struct cache_header_t {
+        apc_lck_t lock;             // 读写锁，独占阻塞缓存锁
+        apc_lck_t wrlock;           // 写锁，为防止缓存爆满
+        unsigned long num_hits;     // 缓存命中数
+        unsigned long num_misses;   // 缓存未命中数
+        unsigned long num_inserts;  // 插入缓存总次数
+        unsigned long expunges;     // 清除的总次数
+        slot_t* deleted_list;       // 指向被清除的槽的链表
+        time_t start_time;          // 以上计数器被重置的时间
+        zend_bool busy;             // 当apc在忙于清除缓存时告诉客户端此时状态的标记
+        int num_entries;            // 统计的实体数
+        size_t mem_size;            // 统计的被用于缓存的内存大小
+        apc_keyid_t lastkey;        // 用户缓存最后写入的key
+    };
+
+```
+一个缓存包含多个slots，每个slot都是一个slot结构体的变量，其结构如下：
+
+```
+    struct slot_t {
+        apc_cache_key_t key;        // 槽的key
+        apc_cache_entry_t* value;   // 槽的值
+        slot_t* next;               // 链表中的下一个槽
+        unsigned long num_hits;     // 这个bucket的命中数/* number of hits to this bucket */
+        time_t creation_time;       // 槽的初始化时间
+        time_t deletion_time;       // 槽从缓存被移除的时间 /* time slot was removed from cache */
+        time_t access_time;         // 槽的最后一次被访问的时间
+    };
+```
+每个槽包含一个key，以apc_cache_key_t结构体存储；包含一个值，以apc_cache_entry_t结构体存储。如下：
+
+```
+    struct apc_cache_key_t {
+        apc_cache_key_data_t data;    // 关联信息，如对于刺痛缓存可能放的是存储文件的路径；对于用户缓存存储用户给定的标识或者标识长度
+        unsigned long h;              // 文件完整路径或用户给定的标识的hash值，使用的hash算法为PHP自带的time33算法；或者文件所在device和inode的和
+        time_t mtime;                 // 缓存实体的修改时间
+        unsigned char type;           // APC_CACHE_KEY_USER：用户缓存; APC_CACHE_KEY_FPFILE：系统缓存（有完整路径）; APC_CACHE_KEY_FILE: 系统缓存（需要查找文件）
+        unsigned char md5[16];        // 文件内容的MD5值
+    };
+```
+除了入口，APC在最终的数据存储上对于系统缓存和用户缓存也做了区分，在
+
+```
+    typedef union _apc_cache_entry_value_t {
+        struct {            
+            char *filename;             // 文件的绝对路径
+            zend_op_array* op_array;    // 存储中间代码的op_array
+            apc_function_t* functions;  // array of apc_function_t's */
+            apc_class_t* classes;       // array of apc_class_t's */
+            long halt_offset;           // value of __COMPILER_HALT_OFFSET__ for the file */
+        } file;                         // file结构体 系统缓存所用空间，包括文件名，
+        struct {
+            char *info;
+            int info_len;
+            zval *val;
+            unsigned int ttl;           // 过期时间
+        } user;                         // user结构体 用户缓存所用空间
+    } apc_cache_entry_value_t;
+```
+如图所示：
+![APC 缓存存储结构](http://ovqrdbvl4.bkt.clouddn.com/e46a8188f351c40a9ef43caf928a3a27.jpg)
+
+#### 初始化
+在APC扩展的模块初始化函数（PHP_MINIT_FUNCTION(apc)）中，APC会调用apc_module_init函数初始化缓存所需要的全局变量，如系统缓存则调用apc_cache_create创建缓存全局变量apce_cache，默认情况下会分配1031个slot所需要的内存空间，用户缓存也会调用同样的方法创建缓存，存储在另一个全局变量apc_user_cache，默认情况下会分配4099个内存空间。这里分配的空间的个数都是素数，在APC的代码中有一个针对不同数量的素数表primes(在apc_cache.c文件)。素数的计算是直接遍历素数表，找到表中第一个比需要分配的个数大的素数。
+
+#### 添加缓存过程
+  以用户缓存为例，apc_add函数用于给APC缓存中添加内容。如果key参数为字符串中，APC会根据此字符串生成key，如果key参数为数组，APC会遍历整个数组，生成key。根据这些key，APC会调用_apc_store将值存储到缓存中。由于这是用户缓存，当前使用的缓存为apc_user_cache。执行写入操作的是apc_cache_make_user_entry函数，其最终调用apc_cache_user_insert执行遍历查询和写入操作。与此对应，系统缓存使用apc_cache_insert执行写入操作，其最终都会调用_apc_cache_insert。
+  
+不管是用户缓存还是系统缓存，大体的执行过程类似，步骤如下：
+- 通过求余操作，定位当前key的在slots数组中的位置： cache->slots[key.h % cache->num_slots];
+- 在定位到slots数组中的位置后，遍历当前key对应的slot链表，如果存在slot的key和要写入的key匹配或slot过期，清除当前slot。
+- 在最后一个slot的后面插入新的slot。
+
+#### 缓存key生成规则
+APC的缓存中的每个slot都会有一个key，key是 apc_cache_key_t结构体类型，除了key相关的属性，关键是h字段的生成。 h字段决定了此元素落于slots数组的哪一个位置。对于用户缓存和系统缓存，其生成规则不同。
+  - 用户缓存通过apc_cache_make_user_key函数生成key。通过用户传递进来的key字符串，依赖PHP内核中的hash函数（PHP的hashtable所使用的hash函数：zend_inline_hash_func），生成h值。
+  - 系统缓存通过apc_cache_make_file_key函数生成key。通过APC的配置项apc.stat的开关来区别对待不同的方案。在打开的情况下，即 apc.stat= On 时，如果被更新则自动重新编译和缓存编译后的内容。此时的h值是文件的device和inode相加所得的值。在关闭的情况下，即apc.stat=off时，当文件被修改后，如果要使更新的内容生效，则必须重启Web服务器。此时h值是根据文件的路径地址生成，并且这里的路径是绝对路径。即使你是使用的相对路径，也会查找PG(include_path)定位文件，以取得绝对路径，所以使用绝对路径会跳过检查，可以提高代码的效率。
+
+
+
+### APC vs MC
+- APC是PHP的一个扩展,使用共享内存保存数据,进程数据共享。
+- MC 外部服务,使用UDP、TCP网络协议交互,交互过程中需要对php对象进行序列化、反序列化等,延迟较直接集成在PHP进程中的APC大很多。
+- MC 可以实现多台机器数据共享,或者其他非PHP(HHVM)应用共享数据。(Session共享问题)。
+- APC 惰性释放过期数据。
+
+### APC 常用函数
+常见参数：
+
+- key 存储缓存变量使用的名称.key是唯一的，所以 两个值使用同一个 key，原来的将被新的值覆盖。
+- var 待存储的数据
+- ttl 生存时间;在缓存中存储var共ttl秒, 在ttl秒过去后,存储的变量将会从缓存中擦除(在下一次请求时), 如果没有设置ttl(或者ttl是0), 变量将一直存活到被手动移除为止,除此之外不在缓存中的可能原因是,缓存系统使用clear,或者restart等。
+- values Names in key, variables in value.
+- apc_store 缓存一个变量到APC中
+- apc_add 缓存一个变量到数据存储,仅仅在缓存变量不存在的情况下缓存变量到数据存储中.
+
+```
+    bool apc_store ( string $key , mixed $var [, int $ttl = 0 ] )
+    array apc_store ( array $values [, mixed $unused = NULL [, int $ttl = 0 ]] )
+    // success return array(0) { } 
+    array apc_add ( array $values [, mixed $unused = NULL [, int $ttl = 0 ]] )
+    // success return key in $values
+
+```
+- apc_delete 从用户缓存中删除某个变量 
+
+ ```
+ mixed apc_delete ( string $key )  官方文档有错 代码中是 mix
+ // 注意 PHP/HHVM 中的 apc_delete(mix $key) 可以批量删除
+ ```
+- apc_exists 检查APC中是否存在某个或者某些key
+- apc_fetch  从缓存中取出存储的变量
+
+### Reference
+- [揭秘TSRM(Introspecting TSRM)](http://www.laruence.com/2008/08/03/201.html)
+- [php加速 PHP APC 详解](http://www.blogdaren.com/m/?post=1087)
+- [php apc官方文档](http://php.net/manual/zh/book.apc.php)
+- shm_size  shared memroy size  单位MB  shmmax 单位B
+- [linux 内存管理——内核的shmall 和shmmax 参数](http://www.cnblogs.com/dkblog/archive/2011/09/06/2168721.html)
+- [Linux进程间通信——使用共享内存](http://blog.csdn.net/ljianhui/article/details/10253345)
+- [php词典内存cache](http://wiki.baidu.com/pages/viewpage.action?pageId=213654054)
+- [Yac (Yet Another Cache) – 无锁共享内存Cache](http://www.laruence.com/2013/03/18/2846.html)
+- [HHVM——百度手册](http://man.baidu.com:8092/inf/hhvm/)
+- [深入理解PHP Opcode缓存原理](https://blog.linuxeye.cn/361.html)
+- [Redis,memcache,apc,apcu,yac介绍和比较](http://da.dadaaierer.com/?p=94)
+- [PHP缓存之APC-简介、存储结构和操作](http://www.phppan.com/2012/06/php-opcode-cache-apc-1/)
+- [Apache ab使用POST参数进行压力测试](http://www.voidcn.com/article/p-kcmjjadu-zp.html)
+- [web压力测试工具apache -ab讲解](http://www.phpernote.com/php-function/1041.html)
+- [PHP文件上传进度的实现原理](http://www.phppan.com/2012/04/php-upload-progress/)
+
