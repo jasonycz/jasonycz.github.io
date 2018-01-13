@@ -1,5 +1,0 @@
-### APC 与 PHP 内核交互
-APC 作为一个扩展添加到PHP体系中。按照PHP的扩展规范,它会有 `PHP_MINIT_FUNCTION`、`PHP_RINIT_FUNCTION`、`PHP_RSHUTDOWN_FUNCTION`、`PHP_MSHUTDOWN_FUNCTION`等宏定义的函数。在`PHP_MINIT_FUNCTION(apc)`中有调用`apc_module_init`中，并且在此函数中通过重新给`zend_compile_file`赋值以替换系统自带的编译文件过程，从而将APC自带的功能和相关数据结构插入到整个PHP的体系中。(352行 `apc_module_init(module_number TSRMLS_CC);`)
-
-# (不懂)这里会有一个问题，如果出现多个`zend_compile_file`的替换操作呢？在实际使用过程，这种情况会经常出现，比如当我们使用xdebug扩展时，又使用了apc，此时PHP是怎么处理的呢？不管是哪个扩展，在使用`zend_compile_file`替换时，都会有一个自己的`compile_file`函数（替换用），还有一个作用域在当前扩展的，一个旧的编译函数：`old_compile_file`。相当于每个扩展当中都保留了一个对于前一个编译函数的引用，形成一个单向链表。并且，所有最终的op_array都是在新的`zend_compile_file`中通过`old_compile_file`生成，即都会沿着这条单向链表，将编译的最终过程传递到PHP的`zend_compile_file`实现。在传递过程中，每经过一个节点，这些节点都会增加一些属于自己的数据结构，以实现特定的需求。
-
