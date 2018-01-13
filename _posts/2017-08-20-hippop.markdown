@@ -13,10 +13,6 @@ tags:
 
 ## 好好街舞，好好生活
 
-> 学习记录——2018-01-02 20:00-21:15
-
-- 大厦街舞社
-
 
 <style type="text/css">
     .video {
@@ -25,6 +21,21 @@ tags:
     }
 
 </style>
+
+> 学习记录——2018-01-13 13：00-17：00
+
+今天8点起来买火车票,然后继续睡觉,一觉睡到12:44 哈哈哈哈 破天荒了 只刷了个牙,下楼吃了个兰州拉面就往科技园瑜伽室跑.
+- Popping Todo
+  - fresno (肌肉记忆、跟上音乐节奏)
+  - 弯腰手pop
+  - 胸pop 一次 两次 多次(目标:用胸pop表现鼓点)
+
+
+
+> 学习记录——2018-01-02 20:00-21:15
+
+- 大厦街舞社
+
 
 <video class="video" controls="" preload="none" poster="
 upload:59 http://ovqrdbvl4.bkt.clouddn.com/97d0211c187f5b846ae79fa42add7f15.jpeg">
@@ -44,14 +55,6 @@ upload:59 http://ovqrdbvl4.bkt.clouddn.com/97d0211c187f5b846ae79fa42add7f15.jpeg
 - TODO
   - 知道 soul dance 类型，并且练习熟练
   - 听节奏 咚啪 stop go stop go 练习
-
-<style type="text/css">
-    .video {
-      width:100%;
-      height: 400px;
-    }
-
-</style>
 
 <video class="video" controls="" preload="none" poster="http://ovqrdbvl4.bkt.clouddn.com/392525750b72fbf297b1f202a726d982">
     <source src="http://ovqrdbvl4.bkt.clouddn.com/e80bd3a0d3eee2b78b41db235d7f5b31" type="video/mp4">
