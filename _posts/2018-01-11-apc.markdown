@@ -32,6 +32,7 @@ APC 把 PHP 文件源码的编译结果缓存起来，然后在每次调用时�
     apc.enabled = 1
     apc.cache_by_default = on
     apc.shm_segments = 1
+    ;shm_size  shared memroy size  单位MB  shmmax 单位B
     apc.shm_size = 32
     apc.ttl = 0
     apc.user_ttl = 600
@@ -179,7 +180,6 @@ APC的缓存中的每个slot都会有一个key，key是 apc_cache_key_t结构体
 - [揭秘TSRM(Introspecting TSRM)](http://www.laruence.com/2008/08/03/201.html)
 - [php加速 PHP APC 详解](http://www.blogdaren.com/m/?post=1087)
 - [php apc官方文档](http://php.net/manual/zh/book.apc.php)
-- shm_size  shared memroy size  单位MB  shmmax 单位B
 - [linux 内存管理——内核的shmall 和shmmax 参数](http://www.cnblogs.com/dkblog/archive/2011/09/06/2168721.html)
 - [Linux进程间通信——使用共享内存](http://blog.csdn.net/ljianhui/article/details/10253345)
 - [php词典内存cache](http://wiki.baidu.com/pages/viewpage.action?pageId=213654054)
