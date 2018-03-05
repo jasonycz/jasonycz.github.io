@@ -24,35 +24,145 @@ tags:
 
 > 学习历史回顾
 
-- 质感
-<video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/8123d7e2b7e3aeab2599ab3a4b741f3f.m4v" type="video/mp4">
-</video>
 
-- 身体 wave
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/6e1d419b0b39de75c82aadc767222b13.m4v" type="video/mp4">
+    <source src="
+http://ovqrdbvl4.bkt.clouddn.com/a399bd38433c03f3f85874d224b503db.m4v" type="video/mp4">
 </video>
+<hr>
 
-- popping 基础1
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/7b23eb3c106a5cb1aa89ebb075888c70.m4v" type="video/mp4">
+    <source src="http://ovqrdbvl4.bkt.clouddn.com/7364e64509f193a5a7681ac4d8aca19c.m4v" type="video/mp4">
 </video>
+<hr>
 
-- popping 基础2
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/a0360c3cd08e7a6827115fe05af5ced1.m4v" type="video/mp4">
+    <source src="http://ovqrdbvl4.bkt.clouddn.com/8717614bf9813a904d82310cee57030f.m4v" type="video/mp4">
 </video>
+<hr>
 
-- popping 基础3
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/e0dcf26c79c32a6a3c53b2458c58e152.m4v" type="video/mp4">
+    <source src="http://ovqrdbvl4.bkt.clouddn.com/9fbce3d1f4e2646103439d80e2610552.m4v" type="video/mp4">
 </video>
+<hr>
 
-- popping 基础4
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/d883560f51ace479c5906b0aacd003c1.m4v" type="video/mp4">
+    <source src="http://ovqrdbvl4.bkt.clouddn.com/33d8776e6ec96686ff2915e09e2c1bd0.m4v" type="video/mp4">
 </video>
+<hr>
+
+<video class="video" loop controls="" preload="preload" >
+    <source src="http://ovqrdbvl4.bkt.clouddn.com/eaf867c777a31182ecb83f82103f1b59.m4v" type="video/mp4">
+</video>
+<hr>
+
+<video class="video" loop controls="" preload="preload" >
+    <source src="http://ovqrdbvl4.bkt.clouddn.com/3d2803dc14dd688bb907f105db9c56fa.m4v" type="video/mp4">
+</video>
+<hr>
+
+<video class="video" loop controls="" preload="preload" >
+    <source src="http://ovqrdbvl4.bkt.clouddn.com/415179023e323db65e393ce66adc91b1.m4v" type="video/mp4">
+</video>
+<hr>
+
+<video class="video" loop controls="" preload="preload" >
+    <source src="http://ovqrdbvl4.bkt.clouddn.com/73d3668faa161965bd17e598b92dd494.m4v" type="video/mp4">
+</video>
+<hr>
+
+<video class="video" loop controls="" preload="preload" >
+    <source src="http://ovqrdbvl4.bkt.clouddn.com/5e27a1a2f2bc980b1abb6fa66cb4a40f.m4v" type="video/mp4">
+</video>
+<hr>
+
+<video class="video" loop controls="" preload="preload" >
+    <source src="http://ovqrdbvl4.bkt.clouddn.com/b3d9280df0d183b9c486ce8de4ad3a3b.m4v" type="video/mp4">
+</video>
+<hr>
+
+<video class="video" loop controls="" preload="preload" >
+    <source src="http://ovqrdbvl4.bkt.clouddn.com/76b35b67e3056899351e01f2450b6cca.m4v" type="video/mp4">
+</video>
+<hr>
+
+<video class="video" loop controls="" preload="preload" >
+    <source src="http://ovqrdbvl4.bkt.clouddn.com/9c19f9f5a99c8c0e33b1baf50018c05e.m4v" type="video/mp4">
+</video>
+<hr>
+
+<video class="video" loop controls="" preload="preload" >
+    <source src="http://ovqrdbvl4.bkt.clouddn.com/b268e2ced4ff70ccf87bf12668f01337.m4v" type="video/mp4">
+</video>
+<hr>
+
+<video class="video" loop controls="" preload="preload" >
+    <source src="http://ovqrdbvl4.bkt.clouddn.com/128f775edec29b007bc71aa98155a569.m4v" type="video/mp4">
+</video>
+<hr>
+
+<video class="video" loop controls="" preload="preload" >
+    <source src="http://ovqrdbvl4.bkt.clouddn.com/1f4b27250bbd5a2efd1cc42eb2c2d263.m4v" type="video/mp4">
+</video>
+<hr>
+
+<video class="video" loop controls="" preload="preload" >
+    <source src="http://ovqrdbvl4.bkt.clouddn.com/c5b1047cb707a104d86f2ff58bea751e.m4v" type="video/mp4">
+</video>
+<hr>
+
+<video class="video" loop controls="" preload="preload" >
+    <source src="http://ovqrdbvl4.bkt.clouddn.com/f9cb73d6622718da97a4b33a08ebf1da.m4v" type="video/mp4">
+</video>
+<hr>
+
+<video class="video" loop controls="" preload="preload" >
+    <source src="http://ovqrdbvl4.bkt.clouddn.com/f31e8b21bf46c51d922c47e96f29285f.m4v" type="video/mp4">
+</video>
+<hr>
+
+<video class="video" loop controls="" preload="preload" >
+    <source src="http://ovqrdbvl4.bkt.clouddn.com/8d3ae08532e4e234073903b334395cf9.m4v" type="video/mp4">
+</video>
+<hr>
+
+<video class="video" loop controls="" preload="preload" >
+    <source src="http://ovqrdbvl4.bkt.clouddn.com/b1b8bfe35f23c389e63a2a0057cf6f98.m4v" type="video/mp4">
+</video>
+<hr>
+
+<video class="video" loop controls="" preload="preload" >
+    <source src="http://ovqrdbvl4.bkt.clouddn.com/07ece095178df6d323865c87d3f55341.m4v" type="video/mp4">
+</video>
+<hr>
+
+<video class="video" loop controls="" preload="preload" >
+    <source src="http://ovqrdbvl4.bkt.clouddn.com/301f84826787ef7cecf53c2aea5e9b7f.m4v" type="video/mp4">
+</video>
+<hr>
+
+<video class="video" loop controls="" preload="preload" >
+    <source src="http://ovqrdbvl4.bkt.clouddn.com/b82e1abd6b8bbd5781d16d38a44757b5.m4v" type="video/mp4">
+</video>
+<hr>
+
+<video class="video" loop controls="" preload="preload" >
+    <source src="http://ovqrdbvl4.bkt.clouddn.com/73eea88207ac4a38e27bf8d50c7526f8.m4v" type="video/mp4">
+</video>
+<hr>
+
+<video class="video" loop controls="" preload="preload" >
+    <source src="http://ovqrdbvl4.bkt.clouddn.com/827f30c100aef365de45fef49a95d70c.m4v" type="video/mp4">
+</video>
+<hr>
+
+<video class="video" loop controls="" preload="preload" >
+    <source src="http://ovqrdbvl4.bkt.clouddn.com/403a796aaae98dbb2bb969b549e41f9d.m4v" type="video/mp4">
+</video>
+<hr>
+
+
+
 
 - hippop 基础1
 <video class="video" loop controls="" preload="preload" >
@@ -60,152 +170,14 @@ tags:
 upload:59 http://ovqrdbvl4.bkt.clouddn.com/47dcc3fd8d5490d3b99a0b7ff61d855c.m4v" type="video/mp4">
 </video>
 
-- popping 基础5
-<video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/dd7547f056e477fe665325db91623d1d.m4v" type="video/mp4">
-</video>
-
-- popping 基础6
-<video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/2714871aad1a12cf10db80908c5ee2d4.m4v" type="video/mp4">
-</video>
-
-- 基础1
-<video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/7952f4b3704d96df8d1d86a9e98d0fcd.m4v" type="video/mp4">
-</video>
-
-- 基础2
-<video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/c35ec574610c99bf0f0fed9ef03d2aa2.m4v" type="video/mp4">
-</video>
-
-- 基础3
-<video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/be741aa2d6e91a75fe6d472a976a79d3.m4v" type="video/mp4">
-</video>
-
-- 基础4
-<video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/e1495b6cf124eeb5b05eea8ac29e2de5.m4v" type="video/mp4">
-</video>
-
-- 基础5
-<video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/2898ad69803b9c98a95a45173a68ae50.m4v" type="video/mp4">
-</video>
-
-- 基础6
-<video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/88270747087c7a1d50d821cd453a6e84.m4v" type="video/mp4">
-</video>
-
-
-
-
-
-
-
-
-
-
-> 学习记录——2018-01-13 13：00-17：00
-
-今天8点起来买火车票,然后继续睡觉,一觉睡到12:44 哈哈哈哈 破天荒了 只刷了个牙,下楼吃了个兰州拉面就往科技园瑜伽室跑.
-- Popping Todo
-  - fresno (肌肉记忆、跟上音乐节奏)
-  - 弯腰手pop
-  - 胸pop 一次 两次 多次(目标:用胸pop表现鼓点)
-
-
-
-> 学习记录——2018-01-02 20:00-21:15
 
 - 大厦街舞社
 
 
-<video class="video" controls="" preload="none" poster="
-upload:59 http://ovqrdbvl4.bkt.clouddn.com/97d0211c187f5b846ae79fa42add7f15.jpeg">
+<video class="video" loop controls="" preload="preload">
     <source src="http://ovqrdbvl4.bkt.clouddn.com/551107a5f0a2c8773a715896e0aaac37.mp4" type="video/mp4">
 </video>
 
-
-> 学习记录——2017-12-02 13：00-17：00
-
-- soul dance
-  - old man
-- stop and go
-  - 学习要点
-    - 听到啪打啪噗
-    - 听到咚开始匀速移动
-
-- TODO
-  - 知道 soul dance 类型，并且练习熟练
-  - 听节奏 咚啪 stop go stop go 练习
-
-<video class="video" controls="" preload="none" poster="http://ovqrdbvl4.bkt.clouddn.com/392525750b72fbf297b1f202a726d982">
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/e80bd3a0d3eee2b78b41db235d7f5b31" type="video/mp4">
-</video>
-
-<video class="video" controls="" preload="none" poster="http://ovqrdbvl4.bkt.clouddn.com/759d053e8a875119c28bf09a84afd873">
-    <source   src="http://ovqrdbvl4.bkt.clouddn.com/cfb7b5e2500a549b1263a95ed5a0e1f3" type="video/mp4">
-</video>
-
-
-
-> 学习记录—— 2017-11-18 13：00-16：00
-
-- romeo twist
-- breaking down
-
-- TODO
-  - all type name of soul dance
-  - practice breaking down
-  - practice isolation of chest
-  - 双脚打节拍,胯后摆
-
-<style type="text/css">
-    .video {
-      width:100%;
-      height: 400px;
-    }
-
-</style>
-
-<video class="video" controls="" preload="none" poster="http://ovqrdbvl4.bkt.clouddn.com/0f221cb7cdf30ddf2c9cec01f291393c">
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/1f4221e196bb5474555483a8475c905d" type="video/mp4">
-</video>
-
-
-
-> 学习记录——2017-11-12 13：00-16：00
-
-- soul dance
-  - old man
-- stop and go
-  - 学习要点
-    - 听到啪打啪噗
-    - 听到咚开始匀速移动
-
-- TODO
-  - 知道 soul dance 类型，并且练习熟练
-  - 听节奏 咚啪 stop go stop go 练习
-
-<style type="text/css">
-    .video {
-    	width:100%;
-    	height: 400px;
-    }
-
-</style>
-
-<video class="video" controls="" preload="none" poster="http://ovqrdbvl4.bkt.clouddn.com/392525750b72fbf297b1f202a726d982">
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/e80bd3a0d3eee2b78b41db235d7f5b31" type="video/mp4">
-</video>
-
-<video class="video" controls="" preload="none" poster="http://ovqrdbvl4.bkt.clouddn.com/759d053e8a875119c28bf09a84afd873">
-    <source   src="http://ovqrdbvl4.bkt.clouddn.com/cfb7b5e2500a549b1263a95ed5a0e1f3" type="video/mp4">
-</video>
 
 
 > 学习记录——2017-09-12 23:03:33
@@ -216,18 +188,16 @@ upload:59 http://ovqrdbvl4.bkt.clouddn.com/97d0211c187f5b846ae79fa42add7f15.jpeg
 
 > 2017年09月05日
 
-<video class="video" controls="" preload="none" poster="http://ovqrdbvl4.bkt.clouddn.com/03c033f947081c31f22baf1f1baf848f">
+<video class="video" loop controls="" preload="preload">
     <source  src="http://ovqrdbvl4.bkt.clouddn.com/56c31d5a877ccd6d0743c7ce7ef8661a" type="video/mp4">
 </video>
 
 
 > 2017年09月12日
 
-<video class="video" controls="" preload="none" poster="http://ovqrdbvl4.bkt.clouddn.com/387778b55d5cf4633540c4f97779fe4e">
+<video class="video" loop controls="" preload="preload">
       <source  src="http://ovqrdbvl4.bkt.clouddn.com/622b71918389e90dad19aab2638a9bcd" type="video/mp4">
 </video>
 
-> todo
 
-- 自拍一次给老王（主要把握律动） 2017年09月13日自拍
 
