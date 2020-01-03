@@ -123,7 +123,7 @@ APC 把 PHP 文件源码的编译结果缓存起来，然后在每次调用时�
     } apc_cache_entry_value_t;
 ```
 如图所示：
-![APC 缓存存储结构](http://ovqrdbvl4.bkt.clouddn.com/e46a8188f351c40a9ef43caf928a3a27.jpg)
+![APC 缓存存储结构](http://public.minapplat.com/e46a8188f351c40a9ef43caf928a3a27.jpg)
 
 #### 初始化
 在APC扩展的模块初始化函数（PHP_MINIT_FUNCTION(apc)）中，APC会调用apc_module_init函数初始化缓存所需要的全局变量，如系统缓存则调用apc_cache_create创建缓存全局变量apce_cache，默认情况下会分配1031个slot所需要的内存空间，用户缓存也会调用同样的方法创建缓存，存储在另一个全局变量apc_user_cache，默认情况下会分配4099个内存空间。这里分配的空间的个数都是素数，在APC的代码中有一个针对不同数量的素数表primes(在apc_cache.c文件)。素数的计算是直接遍历素数表，找到表中第一个比需要分配的个数大的素数。

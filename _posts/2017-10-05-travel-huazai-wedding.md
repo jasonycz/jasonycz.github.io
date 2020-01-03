@@ -13,25 +13,25 @@ tags:
 
 ### 旅途
 <figure>
-    <img src="http://ovqrdbvl4.bkt.clouddn.com/f18e3ee1af034cb580f2fe349cda0919">
-    <img src="http://ovqrdbvl4.bkt.clouddn.com/f0560347004549fceb4ef394895646d4">
-    <img src="http://ovqrdbvl4.bkt.clouddn.com/e95b734b026945687d32a85d06875e2f">
+    <img src="http://public.minapplat.com/f18e3ee1af034cb580f2fe349cda0919">
+    <img src="http://public.minapplat.com/f0560347004549fceb4ef394895646d4">
+    <img src="http://public.minapplat.com/e95b734b026945687d32a85d06875e2f">
 </figure>
 
 ### 婚礼
 <figure>
-    <img src="http://ovqrdbvl4.bkt.clouddn.com/d17b82bb81e1537e559306b6a6247546">
-    <img src="http://ovqrdbvl4.bkt.clouddn.com/923607d51cc18b78a9e0338cec0292f7">
-    <img src="http://ovqrdbvl4.bkt.clouddn.com/9e31a8f959622b3119e20a830b6fe2bb">
-    <img src="http://ovqrdbvl4.bkt.clouddn.com/4d31831496d474f1ff9287982e7eb2e5">
-    <img src="http://ovqrdbvl4.bkt.clouddn.com/1a269ae1a9a4adf652e22f5f44e10dcf">
+    <img src="http://public.minapplat.com/d17b82bb81e1537e559306b6a6247546">
+    <img src="http://public.minapplat.com/923607d51cc18b78a9e0338cec0292f7">
+    <img src="http://public.minapplat.com/9e31a8f959622b3119e20a830b6fe2bb">
+    <img src="http://public.minapplat.com/4d31831496d474f1ff9287982e7eb2e5">
+    <img src="http://public.minapplat.com/1a269ae1a9a4adf652e22f5f44e10dcf">
 </figure>
 
 ### 那时的我们
 
 <figure>
-    <img src="http://ovqrdbvl4.bkt.clouddn.com/e0055ab7fc6f96967ea1c4086d5cd52f">
-    <img src="http://ovqrdbvl4.bkt.clouddn.com/3ecfcb0fed4616a941495e45020af184">
+    <img src="http://public.minapplat.com/e0055ab7fc6f96967ea1c4086d5cd52f">
+    <img src="http://public.minapplat.com/3ecfcb0fed4616a941495e45020af184">
 </figure>
 
 ## Travel experience

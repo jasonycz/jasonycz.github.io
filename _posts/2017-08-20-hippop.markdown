@@ -27,137 +27,137 @@ tags:
 
 <video class="video" loop controls="" preload="preload" >
     <source src="
-http://ovqrdbvl4.bkt.clouddn.com/a399bd38433c03f3f85874d224b503db.m4v" type="video/mp4">
+http://public.minapplat.com/a399bd38433c03f3f85874d224b503db.m4v" type="video/mp4">
 </video>
 <hr>
 
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/7364e64509f193a5a7681ac4d8aca19c.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/7364e64509f193a5a7681ac4d8aca19c.m4v" type="video/mp4">
 </video>
 <hr>
 
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/8717614bf9813a904d82310cee57030f.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/8717614bf9813a904d82310cee57030f.m4v" type="video/mp4">
 </video>
 <hr>
 
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/9fbce3d1f4e2646103439d80e2610552.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/9fbce3d1f4e2646103439d80e2610552.m4v" type="video/mp4">
 </video>
 <hr>
 
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/33d8776e6ec96686ff2915e09e2c1bd0.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/33d8776e6ec96686ff2915e09e2c1bd0.m4v" type="video/mp4">
 </video>
 <hr>
 
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/eaf867c777a31182ecb83f82103f1b59.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/eaf867c777a31182ecb83f82103f1b59.m4v" type="video/mp4">
 </video>
 <hr>
 
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/3d2803dc14dd688bb907f105db9c56fa.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/3d2803dc14dd688bb907f105db9c56fa.m4v" type="video/mp4">
 </video>
 <hr>
 
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/415179023e323db65e393ce66adc91b1.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/415179023e323db65e393ce66adc91b1.m4v" type="video/mp4">
 </video>
 <hr>
 
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/73d3668faa161965bd17e598b92dd494.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/73d3668faa161965bd17e598b92dd494.m4v" type="video/mp4">
 </video>
 <hr>
 
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/5e27a1a2f2bc980b1abb6fa66cb4a40f.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/5e27a1a2f2bc980b1abb6fa66cb4a40f.m4v" type="video/mp4">
 </video>
 <hr>
 
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/b3d9280df0d183b9c486ce8de4ad3a3b.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/b3d9280df0d183b9c486ce8de4ad3a3b.m4v" type="video/mp4">
 </video>
 <hr>
 
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/76b35b67e3056899351e01f2450b6cca.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/76b35b67e3056899351e01f2450b6cca.m4v" type="video/mp4">
 </video>
 <hr>
 
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/9c19f9f5a99c8c0e33b1baf50018c05e.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/9c19f9f5a99c8c0e33b1baf50018c05e.m4v" type="video/mp4">
 </video>
 <hr>
 
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/b268e2ced4ff70ccf87bf12668f01337.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/b268e2ced4ff70ccf87bf12668f01337.m4v" type="video/mp4">
 </video>
 <hr>
 
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/128f775edec29b007bc71aa98155a569.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/128f775edec29b007bc71aa98155a569.m4v" type="video/mp4">
 </video>
 <hr>
 
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/1f4b27250bbd5a2efd1cc42eb2c2d263.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/1f4b27250bbd5a2efd1cc42eb2c2d263.m4v" type="video/mp4">
 </video>
 <hr>
 
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/c5b1047cb707a104d86f2ff58bea751e.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/c5b1047cb707a104d86f2ff58bea751e.m4v" type="video/mp4">
 </video>
 <hr>
 
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/f9cb73d6622718da97a4b33a08ebf1da.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/f9cb73d6622718da97a4b33a08ebf1da.m4v" type="video/mp4">
 </video>
 <hr>
 
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/f31e8b21bf46c51d922c47e96f29285f.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/f31e8b21bf46c51d922c47e96f29285f.m4v" type="video/mp4">
 </video>
 <hr>
 
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/8d3ae08532e4e234073903b334395cf9.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/8d3ae08532e4e234073903b334395cf9.m4v" type="video/mp4">
 </video>
 <hr>
 
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/b1b8bfe35f23c389e63a2a0057cf6f98.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/b1b8bfe35f23c389e63a2a0057cf6f98.m4v" type="video/mp4">
 </video>
 <hr>
 
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/07ece095178df6d323865c87d3f55341.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/07ece095178df6d323865c87d3f55341.m4v" type="video/mp4">
 </video>
 <hr>
 
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/301f84826787ef7cecf53c2aea5e9b7f.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/301f84826787ef7cecf53c2aea5e9b7f.m4v" type="video/mp4">
 </video>
 <hr>
 
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/b82e1abd6b8bbd5781d16d38a44757b5.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/b82e1abd6b8bbd5781d16d38a44757b5.m4v" type="video/mp4">
 </video>
 <hr>
 
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/73eea88207ac4a38e27bf8d50c7526f8.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/73eea88207ac4a38e27bf8d50c7526f8.m4v" type="video/mp4">
 </video>
 <hr>
 
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/827f30c100aef365de45fef49a95d70c.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/827f30c100aef365de45fef49a95d70c.m4v" type="video/mp4">
 </video>
 <hr>
 
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/403a796aaae98dbb2bb969b549e41f9d.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/403a796aaae98dbb2bb969b549e41f9d.m4v" type="video/mp4">
 </video>
 <hr>
 
@@ -167,7 +167,7 @@ http://ovqrdbvl4.bkt.clouddn.com/a399bd38433c03f3f85874d224b503db.m4v" type="vid
 - hippop 基础1
 <video class="video" loop controls="" preload="preload" >
     <source src="
-upload:59 http://ovqrdbvl4.bkt.clouddn.com/47dcc3fd8d5490d3b99a0b7ff61d855c.m4v" type="video/mp4">
+upload:59 http://public.minapplat.com/47dcc3fd8d5490d3b99a0b7ff61d855c.m4v" type="video/mp4">
 </video>
 
 
@@ -175,7 +175,7 @@ upload:59 http://ovqrdbvl4.bkt.clouddn.com/47dcc3fd8d5490d3b99a0b7ff61d855c.m4v"
 
 
 <video class="video" loop controls="" preload="preload">
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/551107a5f0a2c8773a715896e0aaac37.mp4" type="video/mp4">
+    <source src="http://public.minapplat.com/551107a5f0a2c8773a715896e0aaac37.mp4" type="video/mp4">
 </video>
 
 
@@ -189,14 +189,14 @@ upload:59 http://ovqrdbvl4.bkt.clouddn.com/47dcc3fd8d5490d3b99a0b7ff61d855c.m4v"
 > 2017年09月05日
 
 <video class="video" loop controls="" preload="preload">
-    <source  src="http://ovqrdbvl4.bkt.clouddn.com/56c31d5a877ccd6d0743c7ce7ef8661a" type="video/mp4">
+    <source  src="http://public.minapplat.com/56c31d5a877ccd6d0743c7ce7ef8661a" type="video/mp4">
 </video>
 
 
 > 2017年09月12日
 
 <video class="video" loop controls="" preload="preload">
-      <source  src="http://ovqrdbvl4.bkt.clouddn.com/622b71918389e90dad19aab2638a9bcd" type="video/mp4">
+      <source  src="http://public.minapplat.com/622b71918389e90dad19aab2638a9bcd" type="video/mp4">
 </video>
 
 

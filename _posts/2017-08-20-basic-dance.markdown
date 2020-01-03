@@ -22,12 +22,12 @@ tags:
 
 </style>
 
-<video class="video" controls="" preload="none" poster="http://ovqrdbvl4.bkt.clouddn.com/47303e0ec40819b8f19636800e4760c2.jpg">
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/0ae3388ec91c997c0a0d6cff216b6dab.mp4" type="video/mp4">
+<video class="video" controls="" preload="none" poster="http://public.minapplat.com/47303e0ec40819b8f19636800e4760c2.jpg">
+    <source src="http://public.minapplat.com/0ae3388ec91c997c0a0d6cff216b6dab.mp4" type="video/mp4">
 </video>
 
-<video class="video" controls="" preload="none" poster="http://ovqrdbvl4.bkt.clouddn.com/29c30fdff728e50a79578883518d8d3e.gif">
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/1095b53615b54dfcb74ef035650d26d7.mp4" type="video/mp4">
+<video class="video" controls="" preload="none" poster="http://public.minapplat.com/29c30fdff728e50a79578883518d8d3e.gif">
+    <source src="http://public.minapplat.com/1095b53615b54dfcb74ef035650d26d7.mp4" type="video/mp4">
 </video>
 
 

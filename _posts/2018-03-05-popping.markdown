@@ -26,73 +26,73 @@ tags:
 
 - 质感
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/8123d7e2b7e3aeab2599ab3a4b741f3f.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/8123d7e2b7e3aeab2599ab3a4b741f3f.m4v" type="video/mp4">
 </video>
 
 - 身体 wave
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/6e1d419b0b39de75c82aadc767222b13.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/6e1d419b0b39de75c82aadc767222b13.m4v" type="video/mp4">
 </video>
 
 - popping 基础1
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/7b23eb3c106a5cb1aa89ebb075888c70.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/7b23eb3c106a5cb1aa89ebb075888c70.m4v" type="video/mp4">
 </video>
 
 - popping 基础2
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/a0360c3cd08e7a6827115fe05af5ced1.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/a0360c3cd08e7a6827115fe05af5ced1.m4v" type="video/mp4">
 </video>
 
 - popping 基础3
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/e0dcf26c79c32a6a3c53b2458c58e152.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/e0dcf26c79c32a6a3c53b2458c58e152.m4v" type="video/mp4">
 </video>
 
 - popping 基础4
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/d883560f51ace479c5906b0aacd003c1.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/d883560f51ace479c5906b0aacd003c1.m4v" type="video/mp4">
 </video>
 
 
 - popping 基础5
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/dd7547f056e477fe665325db91623d1d.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/dd7547f056e477fe665325db91623d1d.m4v" type="video/mp4">
 </video>
 
 - popping 基础6
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/2714871aad1a12cf10db80908c5ee2d4.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/2714871aad1a12cf10db80908c5ee2d4.m4v" type="video/mp4">
 </video>
 
 - 基础1
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/7952f4b3704d96df8d1d86a9e98d0fcd.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/7952f4b3704d96df8d1d86a9e98d0fcd.m4v" type="video/mp4">
 </video>
 
 - 基础2
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/c35ec574610c99bf0f0fed9ef03d2aa2.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/c35ec574610c99bf0f0fed9ef03d2aa2.m4v" type="video/mp4">
 </video>
 
 - 基础3
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/be741aa2d6e91a75fe6d472a976a79d3.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/be741aa2d6e91a75fe6d472a976a79d3.m4v" type="video/mp4">
 </video>
 
 - 基础4
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/e1495b6cf124eeb5b05eea8ac29e2de5.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/e1495b6cf124eeb5b05eea8ac29e2de5.m4v" type="video/mp4">
 </video>
 
 - 基础5
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/2898ad69803b9c98a95a45173a68ae50.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/2898ad69803b9c98a95a45173a68ae50.m4v" type="video/mp4">
 </video>
 
 - 基础6
 <video class="video" loop controls="" preload="preload" >
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/88270747087c7a1d50d821cd453a6e84.m4v" type="video/mp4">
+    <source src="http://public.minapplat.com/88270747087c7a1d50d821cd453a6e84.m4v" type="video/mp4">
 </video>
 
 
@@ -121,12 +121,12 @@ tags:
   - 知道 soul dance 类型，并且练习熟练
   - 听节奏 咚啪 stop go stop go 练习
 
-<video class="video" controls="" preload="none" poster="http://ovqrdbvl4.bkt.clouddn.com/392525750b72fbf297b1f202a726d982">
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/e80bd3a0d3eee2b78b41db235d7f5b31" type="video/mp4">
+<video class="video" controls="" preload="none" poster="http://public.minapplat.com/392525750b72fbf297b1f202a726d982">
+    <source src="http://public.minapplat.com/e80bd3a0d3eee2b78b41db235d7f5b31" type="video/mp4">
 </video>
 
-<video class="video" controls="" preload="none" poster="http://ovqrdbvl4.bkt.clouddn.com/759d053e8a875119c28bf09a84afd873">
-    <source   src="http://ovqrdbvl4.bkt.clouddn.com/cfb7b5e2500a549b1263a95ed5a0e1f3" type="video/mp4">
+<video class="video" controls="" preload="none" poster="http://public.minapplat.com/759d053e8a875119c28bf09a84afd873">
+    <source   src="http://public.minapplat.com/cfb7b5e2500a549b1263a95ed5a0e1f3" type="video/mp4">
 </video>
 
 
@@ -150,8 +150,8 @@ tags:
 
 </style>
 
-<video class="video" controls="" preload="none" poster="http://ovqrdbvl4.bkt.clouddn.com/0f221cb7cdf30ddf2c9cec01f291393c">
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/1f4221e196bb5474555483a8475c905d" type="video/mp4">
+<video class="video" controls="" preload="none" poster="http://public.minapplat.com/0f221cb7cdf30ddf2c9cec01f291393c">
+    <source src="http://public.minapplat.com/1f4221e196bb5474555483a8475c905d" type="video/mp4">
 </video>
 
 
@@ -177,12 +177,12 @@ tags:
 
 </style>
 
-<video class="video" controls="" preload="none" poster="http://ovqrdbvl4.bkt.clouddn.com/392525750b72fbf297b1f202a726d982">
-    <source src="http://ovqrdbvl4.bkt.clouddn.com/e80bd3a0d3eee2b78b41db235d7f5b31" type="video/mp4">
+<video class="video" controls="" preload="none" poster="http://public.minapplat.com/392525750b72fbf297b1f202a726d982">
+    <source src="http://public.minapplat.com/e80bd3a0d3eee2b78b41db235d7f5b31" type="video/mp4">
 </video>
 
-<video class="video" controls="" preload="none" poster="http://ovqrdbvl4.bkt.clouddn.com/759d053e8a875119c28bf09a84afd873">
-    <source   src="http://ovqrdbvl4.bkt.clouddn.com/cfb7b5e2500a549b1263a95ed5a0e1f3" type="video/mp4">
+<video class="video" controls="" preload="none" poster="http://public.minapplat.com/759d053e8a875119c28bf09a84afd873">
+    <source   src="http://public.minapplat.com/cfb7b5e2500a549b1263a95ed5a0e1f3" type="video/mp4">
 </video>
 
 
